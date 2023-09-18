@@ -7,7 +7,7 @@ const publicacionSchema = mongoose.Schema({
     },
     descripcion:{
         type:String,
-        required:true,
+        required:false,
     },
     likes:{
         type:Number,
